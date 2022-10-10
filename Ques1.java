@@ -7,7 +7,7 @@ public class Ques1 {
                 return s1.charAt(i) - s2.charAt(i); //if different, return difference
         }
 
-        if (s1.length() < s2.length()) //edge case for strings having some part common
+        if (s1.length() < s2.length()) //edge case for strings having some common part
             return s2.length() - s1.length();
         else if (s1.length() > s2.length())
             return s1.length() - s2.length();
