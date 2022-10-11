@@ -8,7 +8,7 @@ public class Ques1 {
         }
 
         if (s1.length() != s2.length()) //edge case for strings having some common part
-            return s2.length() - s1.length();
+            return s1.length() - s2.length();
         else //strings are equal
             return 0;
     }
